@@ -1,4 +1,10 @@
-# Technical Writing Style Guide
+<p align="center">
+  <img src="https://union.io/images/repo/20170224-01--fda070.png" width="750">
+</p>
+
+<h1 align="center">
+Technical Writing Style Guide
+</h1>
 
 ## Table of Contents
 
@@ -100,7 +106,7 @@ The _Economist_ guide wasn't written with Markdown in mind, so here are some add
 <a name="additional-standards--markdown"></a><a name="2.1"></a>
 - [2.1](#additional-standards--markdown) **Use markdown whenever you can**: Markdown is well-supported and degrades fairly well. When editing a README file, or any in-codebase documentation, use Markdown unless the project requires otherwise.
 
-Use the [GitHub Markdown standard](https://guides.github.com/features/mastering-markdown/) — it's easy to learn, flexible and mature. Use a Markdown editor, like [MacDown](https://macdown.uranusjr.com/) (for Mac), to ensure your Markdown code works before committing it.
+	Use the [GitHub Markdown standard](https://guides.github.com/features/mastering-markdown/) — it's easy to learn, flexible and mature. Use a Markdown editor, like [MacDown](https://macdown.uranusjr.com/) (for Mac), to ensure your Markdown code works before committing it.
 
 <a name="additional-standards--list-items"></a><a name="2.2"></a>
 - [2.2](#additional-standards--list-items) **List items**: Use Markdown list items liberally. And be sure to use a period only if the list item contains two or more full sentences. Otherwise, no period.
