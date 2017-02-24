@@ -152,7 +152,7 @@ Contributing code should always be done in accordance with the contribution guid
 Code _commenting_, however, can be fairly standard. Follow these rules.
 
 <a name="code--comments--capitalize"></a><a name="3.1"></a>
-- [3.1](#code--comments--capitalize) **Capitalize consistently**: Capitalize traditionally, with the first letter of a comment always being capitalized (unless it’s a special variable or keyword, of course).
+- [3.1](#code--comments--capitalize) **Capitalize consistently**: Capitalize traditionally, with the first letter of a comment always being capitalized (unless it's a special variable or keyword, of course).
 
 	```
 // This is a good comment
@@ -163,7 +163,7 @@ Code _commenting_, however, can be fairly standard. Follow these rules.
 	```
 
 <a name="code--comments--periods"></a><a name="3.2"></a>
-- [3.2](#code--comments--periods) **Do not end single-sentence comments with periods**: Capitalize traditionally, with the first letter of a comment always being capitalized (unless it’s a special variable, for example).
+- [3.2](#code--comments--periods) **Do not end single-sentence comments with periods**: Capitalize traditionally, with the first letter of a comment always being capitalized (unless it's a special variable, for example).
 
 
 	```
