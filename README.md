@@ -6,6 +6,8 @@
 Technical Writing Style Guide
 </h1>
 
+Independent Tech Writers Co. strives for a consistent and high quality style of technical writing throughout its entire body of work. Here are the formal standards and best practices for all pull requests initiated by the technical writers working with ITW Co.
+
 ## Table of Contents
 
 1. [General Writing](#general-writing)
@@ -13,10 +15,6 @@ Technical Writing Style Guide
 1. [Code & Comments](#code--comments)
 1. [Commit Messages](#commit-messages)
 1. [Writing for User Interfaces](#writing-for-user-interfaces)
-
-## Introduction
-
-Independent Tech Writers Co. strives for a consistent and high quality style of technical writing throughout its entire body of work. Here are the formal standards and best practices for all pull requests initiated by the technical writers working with ITW Co.
 
 ## General Writing
 
