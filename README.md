@@ -145,7 +145,7 @@ The _Economist_ guide wasn't written with Markdown in mind, so here are some add
 
 ## Code & Comments
 
-Contributing code should always be done in accordance with the contribution guidelines and standards already in place for the project you’re contributing to. Defer to the project precedents for everything from tabs-vs-spaces to naming conventions. When in doubt, use well-respected style guides for the particular programming language (like the [AirBnB JavaScript Style Guide](https://github.com/airbnb/javascript) for JavaScript and JS-like languages, for example).
+Contributing code should always be done in accordance with the contribution guidelines and standards already in place for the project you're contributing to. Defer to the project precedents for everything from tabs-vs-spaces to naming conventions. When in doubt, use well-respected style guides for the particular programming language (like the [AirBnB JavaScript Style Guide](https://github.com/airbnb/javascript) for JavaScript and JS-like languages, for example).
 
 Code _commenting_, however, can be fairly standard. Follow these rules.
 
