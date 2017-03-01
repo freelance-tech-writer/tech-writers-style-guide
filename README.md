@@ -126,8 +126,8 @@ The _Economist_ guide wasn't written with Markdown in mind, so here are some add
 <a name="additional-standards--ellipsis"></a><a name="2.3"></a>
 - [2.3](#additional-standards--ellipsis) **Use periods for ellipses**: When writing an ellipsis, don't use the actual ellipsis character (…, which is _option+;_ on a Mac keyboard, and the `&hellip;` HTML entity), even though it is technically the proper one to use. Just use three consecutive periods (...) since most future editors will write it that way.
 
-<a name="additional-standards--apostophes"></a><a name="2.4"></a>
-- [2.4](#additional-standards--apostophes) **Don't use curly-quotes for apostophes or quotation marks**: Use prime marks (' and ") instead of proper quotation marks (‘’ and “”). The "proper" way to write an apostophe is technically with the curly quotation mark (’, which is the HTML symbol `&rsquo;`). However, it's much more common in daily communication to use the prime mark ('), which is what is on a standard English-language keyboard. So, when contributing to a shared project, just use the prime mark to ensure future editors don't introduce inconsistencies. This also goes for double-quotes (use "" instead of “”).
+<a name="additional-standards--apostrophes"></a><a name="2.4"></a>
+- [2.4](#additional-standards--apostrophes) **Don't use curly-quotes for apostophes or quotation marks**: Use prime marks (' and ") instead of proper quotation marks (‘’ and “”). The "proper" way to write an apostophe is technically with the curly quotation mark (’, which is the HTML symbol `&rsquo;`). However, it's much more common in daily communication to use the prime mark ('), which is what is on a standard English-language keyboard. So, when contributing to a shared project, just use the prime mark to ensure future editors don't introduce inconsistencies. This also goes for double-quotes (use "" instead of “”).
 
 	**Good**:
 	```
@@ -161,8 +161,7 @@ Code _commenting_, however, can be fairly standard. Follow these rules.
 	```
 
 <a name="code--comments--periods"></a><a name="3.2"></a>
-- [3.2](#code--comments--periods) **Do not end single-sentence comments with periods**: Capitalize traditionally, with the first letter of a comment always being capitalized (unless it's a special variable, for example).
-
+- [3.2](#code--comments--periods) **Do not end single-sentence comments with periods**: If a comment is only one sentence, do not include a period at the end of it. If a comment has two or more sentences, use periods. This is identical to the rule regarding list items above.
 
 	```
 // Good: A good one-sentence comment has no ending period
@@ -229,7 +228,7 @@ return text;
 	```
 
 <a name="code--comments--apostrophes"></a><a name="3.5"></a>
-- [3.5](#code--comments--apostrophes) **Use prime marks for apostophes**: As mentioned in [#2.4](2.4), do not use curly-quotes (‘’ or “”) for apostrophes or quotation marks. Use prime marks (' and ") instead.
+- [3.5](#code--comments--apostrophes) **Use prime marks for apostophes**: As mentioned in [#2.4](#additional-standards--apostrophes), do not use curly-quotes (‘’ or “”) for apostrophes or quotation marks. Use prime marks (' and ") instead.
 
 <a name="code--comments--end-of-line"></a><a name="3.6"></a>
 - [3.6](#code--comments--end-of-line) **Avoid commenting at the end of a line of code**: Ideally, comments belong on a line of their own. Only put them at the end of a line of code if you must (like in the rare situation that you must comment on just one item in a large array). Always try to avoid this if possible, however.
