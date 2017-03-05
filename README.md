@@ -102,9 +102,9 @@ Please update your repository, packages, and modules.
 The _Economist_ guide wasn't written with Markdown in mind, so here are some additional rules to follow when editing documentation:
 
 <a name="additional-standards--markdown"></a><a name="2.1"></a>
-- [2.1](#additional-standards--markdown) **Use markdown whenever you can**: Markdown is well-supported and degrades fairly well. When editing a README file, or any in-codebase documentation, use Markdown unless the project requires otherwise.
+- [2.1](#additional-standards--markdown) **Use Markdown whenever you can**: Markdown is well-supported and degrades fairly well. When editing a README file, or any in-codebase documentation, use Markdown unless the project requires otherwise.
 
-	Use the [GitHub Markdown standard](https://guides.github.com/features/mastering-markdown/) — it's easy to learn, flexible and mature. Use a Markdown editor, like [MacDown](https://macdown.uranusjr.com/) (for Mac), to ensure your Markdown code works before committing it.
+	Use the [GitHub Markdown standard](https://guides.github.com/features/mastering-markdown/) — it's easy to learn, flexible and mature. Use a Markdown editor — like the built-in Markdown previewer for [Atom](https://atom.io), or [MacDown](https://macdown.uranusjr.com/) (for Mac) — to ensure your Markdown code looks as desired before committing it.
 
 <a name="additional-standards--list-items"></a><a name="2.2"></a>
 - [2.2](#additional-standards--list-items) **List items**: Use Markdown list items liberally. And be sure to use a period only if the list item contains two or more full sentences. Otherwise, no period.
