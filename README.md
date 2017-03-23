@@ -29,12 +29,12 @@ Here are some important points to follow from the _Economist_ guide.
 
 	**Good**:
 	```
-July 20th 2003. Monday July 9th. July 4th-8th 1776.
+	July 20th 2003. Monday July 9th. July 4th-8th 1776.
 	```
 
 	**Bad**:
 	```
-July 20, 2003. Monday, July 9. July 4th - 8th.
+	July 20, 2003. Monday, July 9. July 4th - 8th.
 	```
 
 <a name="general-writing--numerals"></a><a name="1.2"></a>
@@ -42,12 +42,12 @@ July 20, 2003. Monday, July 9. July 4th - 8th.
 
 	**Good**:
 	```
-Take five minutes. Hold the third note. One in a million.
+	Take five minutes. Hold the third note. One in a million.
 	```
 
 	**Bad**:
 	```
-Take 5 minutes. Hold the 3rd note. 1 in a million.
+	Take 5 minutes. Hold the 3rd note. 1 in a million.
 	```
 
 <a name="general-writing--parentheses"></a><a name="1.3"></a>
@@ -55,14 +55,14 @@ Take 5 minutes. Hold the 3rd note. 1 in a million.
 
 	**Good**:
 	```
-This should feel natural (like a logical next step).
-Perfect! (That was indeed our intent.)
+	This should feel natural (like a logical next step).
+	Perfect! (That was indeed our intent.)
 	```
 
 	**Bad**:
 	```
-This should feel natural (like a logical next step.)
-Perfect! (That was our intent).
+	This should feel natural (like a logical next step.)
+	Perfect! (That was our intent).
 	```
 
 <a name="general-writing--abbreviations"></a><a name="1.4"></a>
@@ -70,16 +70,16 @@ Perfect! (That was our intent).
 
 	**Good**:
 	```
-The USA
-JP Morgan
-Mr and Mrs Smith
+	The USA
+	JP Morgan
+	Mr and Mrs Smith
 	```
 
 	**Bad**:
 	```
-The U.S.A.
-J.P. Morgan
-Mr. and Mrs. Smith
+	The U.S.A.
+	J.P. Morgan
+	Mr. and Mrs. Smith
 	```
 
 <a name="general-writing--oxford-comma"></a><a name="1.5"></a>
@@ -87,12 +87,12 @@ Mr. and Mrs. Smith
 
 	**Good**:
 	```
-Please update your repository, packages and modules.
+	Please update your repository, packages and modules.
 	```
 
 	**Not-so-good**:
 	```
-Please update your repository, packages, and modules.
+	Please update your repository, packages, and modules.
 	```
 
 **[⬆ back to top](#table-of-contents)**
@@ -111,16 +111,16 @@ The _Economist_ guide wasn't written with Markdown in mind, so here are some add
 
 	**Good**:
 	```
-- Update README file
-- Fix any parsing bugs
-- Rename the repository. The joke's not funny anymore.
+	- Update README file
+	- Fix any parsing bugs
+	- Rename the repository. The joke's not funny anymore.
 	```
 
 	**Bad**:
 	```
-- Update README file.
-- Fix any parsing bugs.
-- Rename the repository. The joke's not funny anymore.
+	- Update README file.
+	- Fix any parsing bugs.
+	- Rename the repository. The joke's not funny anymore
 	```
 
 <a name="additional-standards--ellipsis"></a><a name="2.3"></a>
@@ -131,14 +131,14 @@ The _Economist_ guide wasn't written with Markdown in mind, so here are some add
 
 	**Good**:
 	```
-- There aren't any other options!
-- We are not a "traditional startup".
+	- There aren't any other options!
+	- We are not a "traditional startup".
 	```
 
 	**Bad**:
 	```
-- There aren’t any other options!
-- We are not a “traditional startup”.
+	- There aren’t any other options!
+	- We are not a “traditional startup”.
 	```
 
 **[⬆ back to top](#table-of-contents)**
@@ -153,22 +153,22 @@ Code _commenting_, however, can be fairly standard. Follow these rules.
 - [3.1](#code--comments--capitalize) **Capitalize consistently**: Capitalize traditionally, with the first letter of a comment always being capitalized (unless it's a special variable or keyword, of course).
 
 	```
-// This is a good comment
+	// This is a good comment
 
-// So is this one
+	// So is this one
 
-// this isn't a good comment, however
+	// this isn't a good comment, however
 	```
 
 <a name="code--comments--periods"></a><a name="3.2"></a>
 - [3.2](#code--comments--periods) **Do not end single-sentence comments with periods**: If a comment is only one sentence, do not include a period at the end of it. If a comment has two or more sentences, use periods. This is identical to the rule regarding list items above.
 
 	```
-// Good: A good one-sentence comment has no ending period
+	// Good: A good one-sentence comment has no ending period
 
-// Also good: Periods are required here. This comment has two sentences.
+	// Also good: Periods are required here. This comment has two sentences.
 
-// Bad: A one-sentence comment with a period.
+	// Bad: A one-sentence comment with a period.
 	```
 
 
@@ -177,27 +177,27 @@ Code _commenting_, however, can be fairly standard. Follow these rules.
 
 	**Good**:
 	```
-var text = someLineOfCode();
+	var text = someLineOfCode();
 
-// Ensure the text is formatted properly
-text = text.formatProperly();
+	// Ensure the text is formatted properly
+	text = text.formatProperly();
 	```
 
 	**Bad**:
 
 	```
-var text = someLineOfCode();
-// Ensure the text is formatted properly
-text = text.formatProperly();
+	var text = someLineOfCode();
+	// Ensure the text is formatted properly
+	text = text.formatProperly();
 	```
 
 	**Also bad**:
 	```
-var text = someLineOfCode();
+	var text = someLineOfCode();
 
-// Ensure the text is formatted properly
+	// Ensure the text is formatted properly
 
-text = text.formatProperly();
+	text = text.formatProperly();
 	```
 
 <a name="code--comments--sequence"></a><a name="3.4"></a>
@@ -205,26 +205,26 @@ text = text.formatProperly();
 
 	**Good**:
 	```
-// Assign the function output to a variable
-var text = someLineOfCode();
+	// Assign the function output to a variable
+	var text = someLineOfCode();
 
-// Ensure the text is formatted properly
-text = text.formatProperly();
+	// Ensure the text is formatted properly
+	text = text.formatProperly();
 
-// Return the text
-return text;
+	// Return the text
+	return text;
 	```
 
 	**Bad**:
 	```
-// First, assign the function output to a variable
-var text = someLineOfCode();
+	// First, assign the function output to a variable
+	var text = someLineOfCode();
 
-// After that, ensure the text is formatted properly
-text = text.formatProperly();
+	// After that, ensure the text is formatted properly
+	text = text.formatProperly();
 
-// Finally, return the text
-return text;
+	// Finally, return the text
+	return text;
 	```
 
 <a name="code--comments--apostrophes"></a><a name="3.5"></a>
@@ -235,26 +235,26 @@ return text;
 
 	**Good**:
 	```
-// Truncate the string at 35 characters
-$string.truncate(35);
+	// Truncate the string at 35 characters
+	$string.truncate(35);
 	```
 
 	**Bad**:
 	```
-$string.truncate(35); // Truncate the string at 35 characters
+	$string.truncate(35); // Truncate the string at 35 characters
 	```
 
 	**Possible exception to this rule:**
 	```
-var myArray = {
-	'orgeat',
-	'passionfruit',
-	'honeySyrup',    // This must be camel-cased!
-	'falernum',
-	'gin',
-	'rum',
-	'lime'
-}
+	var myArray = {
+		'orgeat',
+		'passionfruit',
+		'honeySyrup',    // This must be camel-cased!
+		'falernum',
+		'gin',
+		'rum',
+		'lime'
+	}
 	```
 
 <a name="code--comments--line-width"></a><a name="3.7"></a>
@@ -262,16 +262,16 @@ var myArray = {
 
 	**Good**:
 	```
-/**
-* I'd just like to interject for a moment. What you're referring
-* to as Linux, is in fact, GNU/Linux, or as I've recently taken
-* to calling it, GNU plus Linux.
-**/
+	/**
+	* I'd just like to interject for a moment. What you're referring
+	* to as Linux, is in fact, GNU/Linux, or as I've recently taken
+	* to calling it, GNU plus Linux.
+	**/
 	```
 
 	**Bad**:
 	```
-// I'd just like to interject for a moment. What you're referring to as Linux, is in fact, GNU/Linux, or as I've recently taken to calling it, GNU plus Linux.
+	// I'd just like to interject for a moment. What you're referring to as Linux, is in fact, GNU/Linux, or as I've recently taken to calling it, GNU plus Linux.
 	```
 
 **[⬆ back to top](#table-of-contents)**
@@ -289,17 +289,17 @@ For projects without strict commit standards: Try your best to describe your com
 
 	**Good**:
 	```
-$ git commit -am "Update the README with examples"
+	$ git commit -am "Update the README with examples"
 	```
 
 	**Bad**:
 	```
-$ git commit -am "Updated the README with examples"
+	$ git commit -am "Updated the README with examples"
 	```
 
 	**Bad**:
 	```
-$ git commit -am "Updating the README with examples"
+	$ git commit -am "Updating the README with examples"
 	```
 
 <a name="commit-messages--capitalize"></a><a name="4.2"></a>
@@ -321,14 +321,14 @@ Note that this means some rules in this guide, like the ones regarding apostroph
 
 	**Good**:
 	```
-MyApp isn’t responding
--- Do you want to close it?
+	MyApp isn’t responding
+	-- Do you want to close it?
 	```
 
 	**Bad**:
 	```
-Sorry!
--- Activity in MyAppActivity (in the MyApp app) is not responding
+	Sorry!
+	-- Activity in MyAppActivity (in the MyApp app) is not responding
 	```
 
 
@@ -337,12 +337,12 @@ Sorry!
 
 	**Good**:
 	```
-Use 24 characters or fewer for file names
+	Use 24 characters or fewer for file names
 	```
 
 	**Bad**:
 	```
-Your file name must be less than 25 characters
+	Your file name must be less than 25 characters
 	```
 
 <a name="writing-for-user-interfaces--essential"></a><a name="5.3"></a>
@@ -350,12 +350,12 @@ Your file name must be less than 25 characters
 
 	**Good**:
 	```
-Your phone is contacting Google. This can take up to five minutes.
+	Your phone is contacting Google. This can take up to five minutes.
 	```
 
 	**Bad**:
 	```
-Your phone needs to communicate with Google servers to sign in to your account. This may take up to five minutes.
+	Your phone needs to communicate with Google servers to sign in to your account. This may take up to five minutes.
 	```
 
 **[⬆ back to top](#table-of-contents)**
